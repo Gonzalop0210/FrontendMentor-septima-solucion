@@ -1,0 +1,25 @@
+@media only screen and (min-width: 200px) and (max-width: 1339px) {
+    .container__main {
+        flex-direction: column;
+        margin-top: 60%;
+    }
+
+    .card__container {
+        height: 350px;
+    }
+
+    .paragraph {
+        margin-bottom: 0;
+    }
+
+    .card__sedans {
+        border-top-right-radius: 10px; 
+        border-bottom-left-radius: 0;
+    }
+
+    .card__luxury {
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 10px;
+        margin-bottom: 10%;
+    }
+}
